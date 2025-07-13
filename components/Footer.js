@@ -42,13 +42,23 @@ class footer extends HTMLElement {
                         </ul>
                     </div>
 
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-neutral-500">Global citizenship</h3>
+                        <ul class="space-y-1 text-white-300">
+                            <li><a href="#" class="hover:underline font-bold">Safety</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Sustainability</a></li>
+                        </ul>
                     </div>
-                    <div>
-                        <a href="#" class="hover:underline">Global citizenship</a>
+
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-neutral-500">Travel</h3>
+                        <ul class="space-y-1 text-white-300">
+                            <li><a href="#" class="hover:underline font-bold">Reserve</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Airports</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Cities</a></li>
+                        </ul>
                     </div>
-                    <div>
-                        <a href="#" class="hover:underline">Global travel</a>
-                    </div>
+                    
                 </nav>
             </div>
         </footer>

@@ -29,7 +29,7 @@ class footer extends HTMLElement {
                         <ul class="space-y-1">
                             <li><a href="#" class="hover:underline font-bold">Ride</a></li>
                             <li><a href="#" class="hover:underline font-bold">Drive</a></li>
-                            <li><a href="#" class="hover:underline font-bold">Deliever</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Deliver</a></li>
                             <li><a href="#" class="hover:underline font-bold">Eat</a></li>
                             <li><a href="#" class="hover:underline font-bold">Uber for business</a></li>
                             <li><a href="#" class="hover:underline font-bold">Uber Freight</a></li>
@@ -55,9 +55,45 @@ class footer extends HTMLElement {
                         </ul>
                     </div>
                 </nav>
+
+                <!-- Íconos sociales y botones English/San Salvador juntos en línea -->
+                <div class="flex items-center gap-165 mt-8">
+                    <!-- Íconos circulares -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 bg-[#C1F11D] rounded-full flex items-center justify-center">
+                            <img src="images/icons8-facebook-50 (1).png" alt="" class="w-4 h-4">
+                        </div>
+                        <div class="w-10 h-10 bg-[#C1F11D] rounded-full flex items-center justify-center">
+                            <img src="images/icons8-twitterx-30.png" alt="" class="w-4 h-4">
+                        </div>
+                        <div class="w-10 h-10 bg-[#C1F11D] rounded-full flex items-center justify-center">
+                            <img src="images/icons8-youtube-50.png" alt="" class="w-4 h-4">
+                        </div>
+                        <div class="w-10 h-10 bg-[#C1F11D] rounded-full flex items-center justify-center">
+                            <img src="images/icons8-linkedin-24 (1).png" alt="" class="w-4 h-4">
+                        </div>
+                        <div class="w-10 h-10 bg-[#C1F11D] rounded-full flex items-center justify-center">
+                            <img src="images/icons8-instagram-32.png" alt="" class="w-4 h-4">
+                        </div>
+                    </div>
+
+                    <!-- Botones English y San Salvador -->
+                    <div class="flex gap-4">
+                        <div class="flex items-center gap-2 bg-[#C1F11D] rounded-md px-4 py-2 w-fit cursor-pointer">
+                            <img src="images/icons8-geografía-48.png" alt="" class="w-4 h-4">
+                            <h1 class="text-sm font-medium text-black">English</h1>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#C1F11D] rounded-md px-6 py-2 w-fit cursor-pointer">
+                            <img src="images/icons8-visita-50.png" alt="" class="w-4 h-4">
+                            <h1 class="text-sm font-medium text-black">San Salvador</h1>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </footer>
         `
     }
 }
+
 customElements.define('o-sito', footer);

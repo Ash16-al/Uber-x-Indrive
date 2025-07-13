@@ -16,10 +16,39 @@ class footer extends HTMLElement {
 
                 <!-- Navegación -->
                 <nav class="flex flex-col md:flex-row items-center md:space-x-6 space-y-2 md:space-y-0 text-sm md:text-base">
-                    <a href="#" class="hover:underline">Company</a>
-                    <a href="#" class="hover:underline">Products</a>
-                    <a href="#" class="hover:underline">Global citizenship</a>
-                    <a href="#" class="hover:underline">Global travel</a>
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-neutral-500">Company</h3>
+                        <ul class="space-y-1 text-white-300">
+                            <li><a href="#" class="hover:underline font-bold">About us</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Our offerings</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Newsroom</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Investors</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Blog</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Careers</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-neutral-500">Products</h3>
+                        <ul class="space-y-1 text-white-300">
+                            <li><a href="#" class="hover:underline font-bold">Ride</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Drive</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Deliever</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Eat</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Uber for business</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Uber Freight</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Gift cards</a></li>
+                            <li><a href="#" class="hover:underline font-bold">Uber Health</a></li>
+                        </ul>
+                    </div>
+
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline">Global citizenship</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline">Global travel</a>
+                    </div>
                 </nav>
             </div>
         </footer>
@@ -27,3 +56,4 @@ class footer extends HTMLElement {
     }
 }
 customElements.define('o-sito', footer);
+

@@ -1,4 +1,4 @@
-class uggestion extends HTMLElement {
+class suggestion extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <section class="max-w-6xl mx-auto mt-10 px-4">

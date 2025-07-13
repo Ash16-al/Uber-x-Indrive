@@ -88,8 +88,24 @@ class footer extends HTMLElement {
                             <h1 class="text-sm font-medium text-black">San Salvador</h1>
                         </div>
                     </div>
+                    
                 </div>
-
+                <div class="flex gap-4 mt-4">
+                    <div>
+                        <img src="images/google-play-badge.jpg" alt="" class="h-10">
+                    </div>
+                    <div>
+                        <img src="images/app-store-badge.jpg" alt="" class="h-10">
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-between text-sm font-bold text-white-400 mt-8 space-y-2 md:space-y-0 gap-185"> 
+                    <div>© 2025 Uber Technologies Inc.</div>
+                    <div class="flex space-x-6">
+                        <a href="#" class="hover:underline">Privacy</a>
+                        <a href="#" class="hover:underline">Accessibility</a>
+                        <a href="#" class="hover:underline">Terms</a>
+                    </div>
+                </div>
             </div>
         </footer>
         `

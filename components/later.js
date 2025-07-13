@@ -2,6 +2,7 @@ class div extends HTMLElement{
 
     connectedCallback(){
         this.innerHTML = `
+        <h1 class="font-bold text-4xl ml-25 -mb-10">Plan for later</h1>
         <div class="flex">
         <div style="background-color: #9bced6ff;" class="w-[747px]  h-[400px] rounded-xl ml-25 mt-20 mb-20 pr-100 ">
        <h1 class="font-bold text-4xl pl-7 pt-20">Get your ride right</h1>

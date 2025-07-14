@@ -1,4 +1,4 @@
-class uggestion extends HTMLElement {
+class suggestions extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <section class="max-w-6xl mx-auto mt-10 px-4">
@@ -30,4 +30,4 @@ class uggestion extends HTMLElement {
     }
 }
 
-customElements.define('ca-mion', suggestion) 
+customElements.define('ca-mion', suggestions) 

@@ -30,4 +30,4 @@ class suggestion extends HTMLElement {
     }
 }
 
-customElements.define('ca-mion', suggestions) 
+customElements.define('ca-mion', suggestion) 

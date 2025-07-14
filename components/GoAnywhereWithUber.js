@@ -38,8 +38,8 @@ class Figure extends HTMLElement{
                     <!-- Lower Buttons -->
 
                     <div class="mt-5">
-                        <button style=" background-color: #99CC00" class="bg-black w-27 h-13 rounded-lg font-semibold ">See prices</button>
-                        <a href="#" class="ml-8 hover:underline font-semibold text-gray-200">Log in to see your recent activity</a>
+                        <button class="mt-auto bg-[#A6FF00] text-black font-semibold px-4 py-2 rounded hover:bg-black hover:text-[#A6FF00] transition w-27 h-13 rounded-lg font-semibold ">See prices</button>
+                        <a href="#" class="ml-8 font-semibold text-gray-200">Log in to see your recent activity</a>
                         <hr class="w-66 h-6 text-gray-200 -mt-2 ml-32">
                     </div>
                 </div>

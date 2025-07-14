@@ -9,7 +9,7 @@ class logIn extends HTMLElement {
                 <p class="text-gray-600">
                     view past trips, tailored suggestions, support resources, <br> and more
                 </p>
-                <button class="bg-[#99CC00] text-black font-semibold px-6 py-3 rounded hover:bg-black hover:text-lime-500">
+                <button class="bg-lime-400 text-black font-semibold px-6 py-3 rounded hover:bg-black hover:text-lime-400">
                     Log in to your account
                 </button>
                 <div>

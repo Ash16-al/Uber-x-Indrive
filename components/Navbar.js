@@ -1,7 +1,7 @@
 class navbar extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
-        <header class="w-full bg-black text-white flex justify-between items-center px-6 py-3">
+        <header class="w-full bg-black text-white flex justify-between items-center px-6 py-3 fixed">
         <div class="flex items-center space-x-6">
             <span class="text-xl font-bold">Uber</span>
             <nav class="flex space-x-4 text-sm font-semibold">

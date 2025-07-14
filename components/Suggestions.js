@@ -1,7 +1,7 @@
-class suggestions extends HTMLElement {
+class suggestion extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <section class="max-w-6xl mx-auto mt-10 px-4">
+        <section class="max-w-6xl mx-auto mt-10 px-4 ml-25">
             <h2 class="text-4xl font-extrabold text-center text-black mb-10">Suggestions</h2>
             <div class="grid md:grid-cols-3 gap-6">
                 ${this.card("Ride", "Go anywhere with Uber. Request a ride, hop in, and go.", "./images/auto.png")}

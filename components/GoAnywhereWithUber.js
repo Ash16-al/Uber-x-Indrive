@@ -1,7 +1,7 @@
 class Figure extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-            <figure class="bg-white text-gray-900">
+            <figure class="flex justify-evenly  bg-[url('./images/Bg-InDrive.webp')] h-180">
                 <div class = "w-125 mt-38 -ml-170">
 
 

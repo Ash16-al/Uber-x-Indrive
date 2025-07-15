@@ -1,36 +1,42 @@
 class figure extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-            <figure >
-                <div class="flex flex-col md:flex-row items-start justify-center min-h-screen px-6 pt-12 gap-12">
+            <body class="bg-white font-sans">
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      
     
-                    <!-- Imagen -->
-                    <div class="w-full max-w-md">
-                        <img src="e58f195f-54f9-428c-984e-dc98d1874005.png" alt="Driver illustration" class="rounded-xl shadow-lg">
-                    </div>
-
-                    <!-- Texto y botón -->
-                    <div class="max-w-md text-center md:text-left">
-                        <h1 class="text-3xl font-bold mb-4">
-                        Drive when you want, make what you need
-                        </h1>
-                        <p class="text-gray-700 mb-6">
-                        Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.
-                        </p>
-                    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4">
-                        <a href="#" class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition">
-                        Get started
-                        </a>
-                        <a href="#" class="text-sm text-gray-700 hover:underline">
-                        Already have an account? <span class="text-black font-medium">Sign in</span>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-            </figure>
+      <div>
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">
+          Log in to see your recent activity
+        </h1>
+        <p class="text-gray-700 mb-6">
+          View past trips, tailored suggestions, support resources, and more.
+        </p>
+        <button class="bg-black text-white px-6 py-3 rounded-md font-medium mb-4">
+          Log in to your account
+        </button>
+        <p class="text-sm text-gray-600">
+          Don’t have an Uber account?
+          <a href="#" class="text-black underline">Sign up</a>
+        </p>
+      </div>
+            <div>
+        <img src="images/login.webp" alt="Airport scene" class="rounded-lg shadow-lg w-full h-auto" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
         `
     }
 }
 
 
+
+
 customElements.define('drive-make', figure);
+
+
+
+
